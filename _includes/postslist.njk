@@ -9,6 +9,7 @@
       <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
       {%- endif -%}
     {% endfor %}
+    {# {{ post | emojiReadTime }} #}
   </li>
     {{ post.data.description }}<br/></br>
 {% endfor %}
